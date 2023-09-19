@@ -1,15 +1,25 @@
 # Linux常用操作
 
+## 常用快捷命令
+
+- `ctrl c`强制退出
+- `ctrl d`退出登录
+- `!`命令前缀，自动匹配上一个命令
+- `ctrl r`搜索历史命令
+- `ctrl +a|e`光标移动到命令开始或结束
+- `ctrl + <- | ->`,左右跳单词
+- `ctrl +l 或 clear`命令 清屏
+
 ## 软件安装
 
-- CentOS系统使用：
-  - yum [install remove search] [-y] 软件名称
+- `CentOS`系统使用：
+  - `yum [-y] [install | remove | search]  软件名称`
     - install 安装
     - remove 卸载
     - search 搜索
     - -y，自动确认
-- Ubuntu系统使用
-  - apt [install remove search] [-y] 软件名称
+- `Ubuntu`系统使用
+  - `apt [-y]  [install | remove | search] 软件名称`
     - install 安装
     - remove 卸载
     - search 搜索
@@ -40,7 +50,7 @@
 
 语法：`ln -s 参数1 参数2`
 
-- 参数1：被链接的
+- 参数1：被链接的文件、文件夹
 - 参数2：要链接去的地方（快捷方式的名称和存放位置）
 
 
@@ -58,17 +68,17 @@
   - %H   小时 (00..23)
   - %M   分钟 (00..59)
   - %S   秒 (00..60)
-  - %s   自 1970-01-01 00:00:00 UTC 到现在的秒数
+  - %s   自 `1970-01-01 00:00:00 UTC` 到现在的秒数
 
 
 
 示例：
 
-- 按照2022-01-01的格式显示日期
+- 按照`2022-01-01`的格式显示日期
 
   ![image-20221027220514640](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027220514.png)
 
-- 按照2022-01-01 10:00:00的格式显示日期
+- 按照`2022-01-01 10:00:00`的格式显示日期
 
   ![image-20221027220525625](https://image-set.oss-cn-zhangjiakou.aliyuncs.com/img-out/2022/10/27/20221027220525.png)
 
