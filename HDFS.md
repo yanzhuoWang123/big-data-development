@@ -21,8 +21,25 @@
 
 # HDFS 的基础架构
 
+## 1、什么是HDFS?
 
+- HDFS全称：Hadoop Distributed File System
+- 是Hadoop三大组件(HDFS、MapReduce、YARN)之一
+- 可在多台服务器上构建集群，提供分布式数据存储能力
+
+## 2、HDFS中架构角色有哪些？
+
+- NameNode：主角色，管理HDFS集群和DataNode角色
+- DataNode：从角色，负责数据的存储
+- SecondaryNameNode：辅助角色，协助NameNode整理元数据
+
+## 3、HDFS的基础架构
+
+![image-20230921193626860](assets/image-20230921193626860.png)
 
 # HDFS集 群环境部署
+
+
+
 # HDFS的存储 原理
 # HDFS的Shell操作
